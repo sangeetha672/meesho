@@ -1,0 +1,565 @@
+.search{
+    outline: none;
+    width: 400px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: none;
+}
+.sec1{
+    font-size: 15px;
+}
+.sicon{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+.sinput{
+    width: 450px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.mobile{
+    height: 30px;
+}
+.con{
+    height: 20px;
+}
+.cart{
+    height: 20px;
+}
+.navi{
+    margin-left: 90px;
+}
+.navi a:hover{
+    color: rgb(159,32,137);
+    border-bottom: 3px solid rgb(159,32,137);
+}
+.mlogo{
+    filter: saturate(3),contrast(3);
+
+}
+.navbar-nav{
+    padding: 10px;
+}
+.nav2 a{
+    margin-left: 30px;
+}
+.nav2 a:hover{
+    color: rgb(159,32,137);
+    border-bottom: 3px solid rgb(159,32,137);
+}
+/* login page */
+.loginpage{
+    position: absolute;
+    z-index: 10;
+    padding: 10px;
+    margin-left: 1100px;
+    margin-top: 80px;
+    display: none;
+}
+.loginpage input{
+    margin-top: 5px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(159,32,137);
+}
+.loginpage button{
+    margin-top: 10px;
+    width: 150px;
+    outline: none;
+    border: none;
+    background-color:  rgb(159,32,137);
+    color: white;
+    font-size: 16px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 3px 2px rgb(159,32,137);
+}
+.dress1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.sarees,.kurtis,.kurtaset,.suits li{
+    list-style: none;  
+}
+.sarees,.kurtis,.kurtaset,.suits{
+    margin-left: 20px;
+    width: 300px;
+}
+.head{
+    color: rgb(86,18,70);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.ethinic2{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    margin-top: 160px;
+    padding: 10px;
+    width: auto;
+    background-color: white;
+}
+.dress{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+
+}
+.tops,.botto li{
+    list-style: none;
+}
+.women2{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    margin-top: 160px;
+    padding: 10px;
+    width: 900px;
+    background-color: white;
+}
+.check{
+    height: 400px;
+    background-color: yellowgreen;
+}
+.lnone li{
+    list-style: none;
+}
+.men2{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    margin-top: 160px;
+    padding: 10px;
+    width: 900px;
+    background-color: white;
+}
+.kid2{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    margin-top: 160px;
+    padding: 10px;
+    width: 900px;
+    background-color: white;
+}
+.Kitchen2{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    margin-top: 160px;
+    padding: 10px;
+    width: 900px;
+    background-color: white;
+}
+.Beauty2{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    margin-top: 160px;
+    padding: 10px;
+    width: 900px;
+    background-color: white;
+}
+.jewe2{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    margin-top: 160px;
+    padding: 10px;
+    width: 900px;
+    background-color: white;
+}
+.bags2{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    margin-top: 160px;
+    padding: 10px;
+    width: 900px;
+    background-color: white;
+}
+.ele2{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    margin-top: 160px;
+    padding: 10px;
+    width: 900px;
+    background-color: white;
+}
+/* section1 */
+.button{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 400px;
+    background-color: rgb(159,32,137);
+    padding: 4px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.button p{
+    margin-left: -100px;
+}
+.button img{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.delivery{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.delivery div{
+    display: flex;
+}
+.s1heading{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.container2{
+    background: url(imges/rashmika.webp);
+    height: 400px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.container1{
+    width: 600px;
+    text-align: center;
+    align-items: center;
+}
+.line{
+    height: 2px;
+    margin-top: 20px;
+    width: 300px;
+    background-color: rgb(159,32,137) ;
+}
+.c3head{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.container3{
+    padding-bottom: 50px;
+}
+.bag{
+    background: url(imges/fashion.webp);
+    height: 400px;
+    width: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 300px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.women{
+    background: url(imges/womenstore.jpg);
+    height: 300px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 50px;
+}
+.men{
+    background: url(imges/mens.webp);
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px; 
+}
+.kids{
+    background: url(imges/kids.webp);
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+}
+.bag2{
+    display: flex;
+    padding-top: 120px;
+}
+.container4{
+    padding-bottom: 60px;
+}
+.con4{
+    background: url(imges/essentials.webp);
+    height: 400px;
+    width: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 290px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.con4flex{
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly; 
+    margin-left: 190px;
+}
+.btn2{
+    height: 30px;
+}
+.bottle{
+    background: url(imges/bottle.webp);
+    height: 300px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+}
+.bot1{
+    background: url(imges/healthcare.webp);
+    height: 300px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+}
+.bot2{
+    background: url(imges/bottle2.webp);
+    height: 300px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+}
+.btns{
+    margin-top: 280px;
+    height: 40px;
+    font-size: 15px;
+    width: 150px;
+    outline: none;
+    border: none;
+    background-color: rgb(239,223,235);
+    color: rgb(124,0,94);
+    font-weight: bolder;
+    border-radius: 20px;
+}
+.con5{
+    background: url(imges/akka.jpeg);
+    height: 400px;
+    width: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 290px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.c5head{
+    font-size: 30px;
+    font-weight: bolder;
+    color: blueviolet;
+    margin-left: 100px;
+}
+.ctn5{
+    width: 500px;
+    margin-left: 250px;
+    margin-top: -40px;
+}
+.c5para{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(159,32,137);
+    margin-left: 20px;
+}
+.apple{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 60px;
+    padding: 20px;
+    gap: 20px;
+}
+.container5{
+    padding-bottom: 60px;
+}
+.man{
+    background: url(imges/mengredient.jpeg);
+    height: 260px;
+    width: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 290px;
+    padding-top: 30px; 
+    background-color: blue;
+}
+.container6{
+    padding-bottom: 60px;
+}
+.ctn6{
+    color: white;
+    padding-left: 40px;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.c6p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.c6p1{
+    font-size: 15px;
+    font-weight: 500;
+}
+.detail p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.c6btn1{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: rgb(159,32,137);
+}
+.drops{
+    display: flex;
+    justify-content: center;
+}
+.carddetails{
+    padding-bottom: 60px;
+    width: 1000px;
+}
+.dropdowns{
+    width: 250px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+/* dropdowns */
+select{
+    margin-top: 5px;
+    width: 200px;
+    outline: none;
+    box-shadow: none;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid rgb(65, 63, 63);
+}
+.cards{
+    height: 320px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+.card-img-top{
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+}
+.btt{
+    height: 20px;
+    width: 30px;
+    font-size: 12px;
+}
+.card-text{
+    font-size: 13px;
+}
+.card-title{
+    font-size: 19px;
+}
+.carddetails{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding-left: 30px;
+}
+.products{
+    padding-top: 30px;
+    margin-left: 50px;
+    padding-bottom: 60px;
+}
+.footer1{
+    display: grid;
+    font-size: 15px;
+    list-style: none;
+    grid-template-columns: repeat(2,1fr);
+    width: 420px;
+    padding: 10px;
+}
+.footer{
+    width: 420px;
+    padding: 10px;
+}
+.icons{
+    width: 420px;
+    padding: 10px;
+}
+.mobb{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.callp{
+    font-weight: 900;
+    font-size: 20px;
+}
+.fa-facebook{
+    color: blue;
+    font-size: 28px;
+}
+.fa-twitter{
+    color: aqua;
+    font-size: 28px;
+}
+.fa-instagram{
+    color: orangered;
+    font-size: 28px;
+}
+.fa-linkedin{
+    color: blue;
+    font-size: 28px;
+}
+/* show slide */
+.bharath{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(245,245,245);
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 700px;
+    z-index: 100;
+    margin-left: 250px;
+    display: none;
+}
+.sangeetha{
+    height: 300px;
+    background: url(imges/saree1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    border-radius: 50%;
+    transition: all 2s;
+}
+.karuvaya{
+    display: flex;
+    justify-content: space-evenly;
+}
